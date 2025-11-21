@@ -1,0 +1,32 @@
+# --- SECRETOS Y CLAVES (NUNCA AL PÚBLICO) ---
+google-services.json
+**/google-services*.json
+serviceAccountKey.json
+firebase-admin*.json
+**/credentials.json
+**/client_secret*.json
+keystore.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.p8
+.env
+.env.*
+
+# --- COSAS QUE SOBRAN EN EL MIRROR ---
+# Gradle/IDE/Build
+.gradle/
+.idea/
+**/build/
+.cxx/
+.externalNativeBuild/
+local.properties
+*.iml
+captures/
+
+# Node / otros
+node_modules/
+
+# SO
+.DS_Store

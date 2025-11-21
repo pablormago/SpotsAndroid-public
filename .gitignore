@@ -1,0 +1,32 @@
+# --- Android / IDE ---
+*.iml
+.gradle/
+.idea/
+**/build/
+.cxx/
+.externalNativeBuild/
+local.properties
+.DS_Store
+captures/
+*.apk
+*.aab
+
+# --- Claves y credenciales (NO subir) ---
+# Firebase cliente (lo mantenemos privado por tu decisión)
+google-services.json
+**/google-services*.json
+
+# Service Accounts / Admin
+serviceAccountKey.json
+firebase-admin*.json
+**/credentials.json
+**/client_secret*.json
+keystore.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.p8
+
+# --- Otros que no hacen falta ---
+node_modules/
